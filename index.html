@@ -8,6 +8,38 @@
     <!-- <link rel="stylesheet" href="/styles.css"> -->
 
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .box:hover {
+        color: brown;
+        background-color: chartreuse;
+      }
+
+      p::before {
+        content: 'High ';
+        color: blueviolet;
+        font-style: italic;
+      }
+
+      p::after {
+        content: 'Ending';
+      }
+
+      .box .dx+p {
+        color: darkcyan;
+      }
+
+      .box>h1 {
+        color: darkmagenta;
+      }
+
+      .chi-box h1 {
+        color: darkgreen;
+      }
+
       h4 {
         color: burlywood;
       }
@@ -30,7 +62,25 @@
     </style>
   </head>
 
+  <p>Lorem ipsum dolor sit amet consectetur.</p>
+
   <body>
+    <div class="box">
+      <h1>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, vitae
+      </h1>
+      <div class="dx">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia modi ducimus sequi libero, ea iusto.</p>
+      </div>
+      <div class="chi-box">
+        <h1>
+          Hello child box
+        </h1>
+      </div>
+    </div>
+
+
+
     <div id="header">
       <h1>My web logo</h1>
 
