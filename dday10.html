@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 15px;
+      }
+
+      li {
+        list-style-position: inside;
+      }
+
+      .head {
+        grid-area: head;
+      }
+
+      .main-co {
+        grid-area: main-co;
+      }
+
+      .sub-co {
+        grid-area: sub-co;
+      }
+
+      .sidebar {
+        grid-area: sidebar;
+      }
+
+      .footer {
+        grid-area: footer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <!-- this is header section -->
+      <div class="head item">
+        <h1>The Web Logo</h1>
+
+      </div>
+      <!-- --------------------- -->
+      <div class="main-co item">
+        <h2>Main Article Area</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus facere, vero aut deleniti itaque
+          expedita suscipit fuga voluptatum, mollitia blanditiis sunt corrupti ab, laboriosam quis!</p>
+      </div>
+      <!-- ---------------------- -->
+      <div class="sub-co item">
+        <h3>Sub Article Area</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus facere, vero aut deleniti itaque
+          expedita suscipit fuga voluptatum, mollitia blanditiis sunt corrupti ab, laboriosam quis!</p>
+      </div>
+      <!-- -------------------- -->
+      <div class="sidebar item">
+        <ol>
+          <li>About</li>
+          <li>Latest</li>
+          <li>more Info</li>
+          <li>Others</li>
+        </ol>
+      </div>
+      <!-- --------------------------- -->
+      <div class="footer item">
+        <h4>Develop By Anonymous</h4>
+        <p>All Rights Reserved</p>
+      </div>
+    </div>
+
+  </body>
+
+</html>

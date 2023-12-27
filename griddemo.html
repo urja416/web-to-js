@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+      }
+
+
+      .header {
+        background-color: #1E293B;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        padding: 10px 20px;
+      }
+
+      span {
+        font-size: 17px;
+        padding-left: 10px;
+        cursor: pointer;
+      }
+
+      span:hover {
+        color: pink;
+      }
+
+      .dis-sec {
+        padding: 10 20px;
+        background-color: #1E293B;
+        color: white;
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+
+        height: 220px;
+
+      }
+
+      .dis-info {
+        margin-top: 10px;
+        line-height: 2rem;
+      }
+
+      form input {
+        padding: 3px 10px;
+        width: 70%;
+        outline: none;
+      }
+
+      button {
+        padding: 4px 15px;
+        border: none;
+        cursor: pointer;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 5px;
+
+      }
+
+      .testimonials {
+        padding: 80px 20px;
+        /* display: grid; */
+        /* grid-template-columns: repeat(3, 1fr); */
+        columns: 3;
+        margin: 10px;
+        gap: 10px;
+        align-items: flex-start;
+      }
+
+      .user-card {
+        background-color: #1E293B;
+        color: #AEB8C5;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .user-info {
+        display: grid;
+        grid-template-columns: 1fr 2.6fr;
+        align-items: center;
+      }
+
+      .user-img img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+      }
+
+      @media(max-width:820px) {
+        .dis-sec {
+          grid-template-columns: 1fr;
+          height: auto;
+        }
+
+        .dis-img {
+          padding: 80px 0;
+        }
+
+
+
+      }
+    </style>
+  </head>
+
+
+  <body>
+    <!-- ---------------HEADER------------------------------------ -->
+    <div class="header">
+      <h1>skills</h1>
+      <nav>
+        <span>About</span>
+        <span>Contact</span>
+      </nav>
+    </div>
+    <!-- -------------------DISPLAY SECTION-------------------------------- -->
+    <div class="dis-sec">
+      <div class="dis-info">
+        <h2>Learn any digital skills of your choice today</h2>
+        <h3>over 30000 students currently learn with us</h3>
+        <form>
+          <input type="text" placeholder="Enter Your Email address">
+          <button>start</button>
+        </form>
+        <p>Try out our free course. No risk, no credit card required</p>
+      </div>
+      <div class="dis-img">
+        <img
+          src="https://media.istockphoto.com/id/1179434300/photo/indian-businesswoman-leading-the-seminar.webp?b=1&s=170667a&w=0&k=20&c=nm06V992iXWC9fzvfv_ld16gJn8nDNhXqafOpbjoITY="
+          alt="">
+      </div>
+    </div>
+    <!-- ----------------------COURSES-------------------------------- -->
+    <!-- todo implement -->
+    <div class="courses" style="margin: 20px 50px;">
+      <i class="fa-solid fa-book-journal-whills fa-2xl"></i>
+    </div>
+    <!-- ----------------testimonials--------------- -->
+
+    <div class="testimonials">
+
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+        <div class="comment">
+          <p>Havcker to write and maintain. You should give it a try </p>
+        </div>
+      </div>
+
+      <!-- <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS for over ten years and Tailwind just makes my life easier. It is still CSS and
+            you use flex grid etc but just quicker to write and maintain. You should give it a try </p>
+        </div>
+
+
+
+
+      </div> -->
+
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS foYou should give it a try </p>
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS flex grid etc but just quicker to write and maintain. You should give it a try
+          </p>
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS for over ten years and Tailwind just makes my life easier. It is still CSS and
+            you use flex grid etc but just quicker to write and maintain. You should give it a try </p>
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS for over ten years and Tailwiquicker to write and maintain. You should give it a
+            try </p>
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS for over ten years and Tailwind just makes my life easierid etc but just quicker
+            to write and maintain. You should give it a try </p>
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS for over ten years and Tailwind just makes my life easier. It is still CSS and
+            you use flex grid etc but just quicker to write and maintain. You should give it a try </p>
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS for over ten years and Tailwi. You should give it a try </p>
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS for over ten years and Tailwind just makes my life easier. It is still CSS and
+            you use flex grid etc but just quicker to write and maintain. You should give it a try </p>
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS for over ten years and Tailwind just makes my life easier. It is still CSS and
+            you use flex grid etc but just quicker to write and maintain. You should give it a try </p>
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS for over ten years and Tailwind just makes my life easier. It is still CSS and
+            you use flex grid etc but just quicker to write and maintain. You should give it a try </p>
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS for over ten years and Tailwind just makes my life easier. It is still CSS and
+            you use flex grid etc but just quicker to write and maintain. You should give it a try </p>
+        </div>
+
+
+
+
+      </div>
+
+      <div class="user-card">
+
+        <div class="user-info">
+          <div class="user-img">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+              alt="">
+          </div>
+          <div class="user-desig">
+            <h3>Ryan Florence</h3>
+            <p>Remix & React Training</p>
+          </div>
+
+        </div>
+
+
+        <div class="comment">
+          <p>Have been working with CSS for over ten years and Tailwind just makes my life easier. It is still CSS and
+            you use flex grid etc but just quicker to write and maintain. You should give it a try </p>
+        </div>
+
+
+
+
+      </div>
+
+
+
+    </div>
+
+  </body>
+
+</html>
